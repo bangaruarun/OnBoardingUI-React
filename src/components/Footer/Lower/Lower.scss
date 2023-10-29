@@ -3,11 +3,14 @@
         align-items: center;
         justify-content: space-between;
         margin: 44px 0px 0px 0px;
-        padding: 0 120px;
+        padding: 0 120px 44px 120px;
         font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         width: 100%;
     @media only screen and (max-width: 600px) {
         width: 380px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
     }
 
     ul {

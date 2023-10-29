@@ -9,6 +9,7 @@ import CardItem from '../Card/CardItem';
 import Lower from '../Footer/Lower/Lower';
 import Upper from '../Footer/Upper/Upper';
 import MoreByUser from '../MoreByUser/MoreByUser';
+import { isMobile } from 'react-device-detect';
 
 
 const App = () => {
@@ -21,9 +22,7 @@ const App = () => {
       <UserContent />
       <UserDetails />
     <CardItem />
-    <MoreByUser />
-    
-      
+    {isMobile ? (<></>):(<MoreByUser />)}
       </div>
     </div>
     <Upper />
