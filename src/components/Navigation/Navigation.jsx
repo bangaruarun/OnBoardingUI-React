@@ -54,11 +54,11 @@ const Navigation = () => {
                 <span></span>
                 <span></span>
                 <ul className="menuItem">
-                  <li><a href="#">Find talent</a></li>
-                  <li><a href="#">Inspiration</a></li>
-                  <li><a href="#">Learn design</a></li>
-                  <li><a href="#">Jobs</a></li>
-                  <li><a href="#">Go Pro</a></li>
+                  <li><a href="/hiring">Find talent</a></li>
+                  <li><a href="/hiring">Inspiration</a></li>
+                  <li><a href="/hiring">Learn design</a></li>
+                  <li><a href="/hiring">Jobs</a></li>
+                  <li><a href="/hiring">Go Pro</a></li>
                   <li className="login-mobile"><a href="/session/new">Log in</a></li>
                 </ul>
               </div>

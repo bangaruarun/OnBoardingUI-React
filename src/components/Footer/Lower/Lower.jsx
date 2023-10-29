@@ -1,13 +1,8 @@
 // @flow
 import React from 'react';
 import './Lower.scss';
-import { FaTwitter,  } from 'react-icons/fa6';
-import { AiFillFacebook, AiOutlineInstagram, AiOutlineCopyrightCircle  } from 'react-icons/ai';
-import { BsPinterest  } from 'react-icons/bs';
+import {  AiOutlineCopyrightCircle  } from 'react-icons/ai';
 import '../../Navigation/Navigation.scss';
-import Logo from '../../../Assets/Images/Logo'
-
-
 
 const Lower = () => {
   return (
