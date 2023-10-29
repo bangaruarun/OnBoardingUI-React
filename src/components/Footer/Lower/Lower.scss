@@ -1,0 +1,52 @@
+.lower-details-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 44px 0px 0px 0px;
+        padding: 0 120px;
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 100%;
+    @media only screen and (max-width: 600px) {
+        width: 380px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        // align-items: flex-start;
+        list-style: none;
+        justify-content: space-evenly;
+        padding: 0px;
+
+        li {
+            display: flex;
+            align-items: center;
+            color: #0d0c22;
+            line-height: 1;
+            margin: 0 8px;
+            font-size: 14px;
+            font-weight: 400;
+
+            a {
+                color: #8c8c8e;
+            }
+        }
+    }
+
+    .lower {
+        // margin-right: auto;
+        display: flex;
+        flex-direction: row;
+    }
+   
+
+    .logo-container {
+        width: 104px;
+        height: 30px;
+    }
+    .copy-right{
+        color: #8c8c8e;
+    }
+
+    
+}

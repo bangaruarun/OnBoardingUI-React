@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+.card-details-container {
+    align-items: center;
+    width: 100%;
+    margin: 25px 0px 64px 0px;
+    z-index: 2;
+    // padding: 50px 0px 50px 0px;
+}
+
+.h2-left{
+    font-weight: 650;
+    margin: 0px 0px 12px 0px;
+
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    // transition: transform 200ms ease-in;
+    box-shadow: 0px 0px 0px 0px;
+
+
+    &__image {
+        height: 197.25px;
+        width: 263px;
+        object-fit: cover;
+    }
+
+    &:hover &__footer {
+        background: rgba(36, 36, 36, 0.5);;
+        box-shadow: 0 0px 20px 40px rgba(36, 36, 36, 0.5);
+    }
+    
+    
+}
