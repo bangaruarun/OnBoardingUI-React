@@ -8,7 +8,7 @@ const UserHeader = () => {
   return (<div className='user-header-container'>
     <div className='user-header-details'>
     <div className='avatar'>
-      <img src="https://cdn.dribbble.com/users/5536359/avatars/normal/1f79c9c4f05475024696ad63dc16a34b.png?1682437458" width="48px" height="48px" />
+      <img src="https://cdn.dribbble.com/users/5536359/avatars/normal/1f79c9c4f05475024696ad63dc16a34b.png?1682437458" width="48px" height="48px" alt='111'/>
     </div>
     <div className='shot-header-details'>
       <span className='shot-header-text'>Onboarding #Exploration</span>
